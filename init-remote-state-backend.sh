@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-
+set -x
 . ./init-env-vars.sh
 
 # Create the resource group
