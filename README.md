@@ -5,7 +5,9 @@ A basic Terraform design to test building and applying Azure's baked in security
 
 First make sure that the host that this will be deployed from has the [Terraform](https://www.terraform.io/downloads.html) and [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) installed and is in a path that it can readily be called from. 
 
-Do a git pull from here. 
+Note - This does not have a robust role/permissions model in place. While each service runs as its own service account and SOME roles are defined, please use something appropriate for your model.  
+
+Do a git pull. 
 
 Change directory into the pulled directory. 
 
