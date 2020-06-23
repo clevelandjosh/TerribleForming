@@ -117,7 +117,7 @@ variable "public_ssh_key_path" {
   default     = "~/.ssh/id_rsa.pub"
 }
 
-variable "tags" = {
+variable "tags" {
   type = map(string)
 
   default = {
