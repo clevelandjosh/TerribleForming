@@ -10,9 +10,9 @@ locals {
 }
 
 data "azurerm_resource_group" "rg" {
-  name = var.resource_group_name
+name = var.resource_group_name
 }
-
+ 
 # User Assigned Identities 
 resource "azurerm_user_assigned_identity" "testIdentity" {
   resource_group_name = data.azurerm_resource_group.rg.name
